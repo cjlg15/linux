@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [基础知识](basic knowlege)
 * [Shell脚本](shell scripts)
 * [Command](command)
    * [tr](cmd/cmd-tr.md)
