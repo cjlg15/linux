@@ -30,20 +30,20 @@ scp命令的实际应用概述：  
 从本地服务器复制到远程服务器： 
 (1) 复制文件：  
 命令格式：  
-scp local_file remote_username@remote_ip:remote_folder  
+```scp local_file remote_username@remote_ip:remote_folder```  
 或者  
-scp local_file remote_username@remote_ip:remote_file  
+```scp local_file remote_username@remote_ip:remote_file  ```
 或者  
-scp local_file remote_ip:remote_folder  
+```scp local_file remote_ip:remote_folder  ```
 或者  
-scp local_file remote_ip:remote_file  
+```scp local_file remote_ip:remote_file  ```
 第1,2个指定了用户名，命令执行后需要输入用户密码，第1个仅指定了远程的目录，文件名字不变，第2个指定了文件名  
 第3,4个没有指定用户名，命令执行后需要输入用户名和密码，第3个仅指定了远程的目录，文件名字不变，第4个指定了文件名   
 (2) 复制目录：  
 命令格式：  
-scp -r local_folder remote_username@remote_ip:remote_folder  
+```scp -r local_folder remote_username@remote_ip:remote_folder  ```
 或者  
-scp -r local_folder remote_ip:remote_folder  
+```scp -r local_folder remote_ip:remote_folder```  
 第1个指定了用户名，命令执行后需要输入用户密码；  
 第2个没有指定用户名，命令执行后需要输入用户名和密码；
   
@@ -51,10 +51,10 @@ scp -r local_folder remote_ip:remote_folder  
 从远程复制到本地的scp命令与上面的命令雷同，只要将从本地复制到远程的命令后面2个参数互换顺序就行了。
 实例1：从远处复制文件到本地目录
 命令：
-scp root@192.168.120.204:/opt/soft/nginx-0.5.38.tar.gz /opt/soft/
+```scp root@192.168.120.204:/opt/soft/nginx-0.5.38.tar.gz /opt/soft/```
 输出：
 
-[root@localhost ~]# cd /opt/soft/
+```[root@localhost ~]# cd /opt/soft/
 [root@localhost soft]# ll
 总计 80072
 drwxr-xr-x 12 root root     4096 09-21 18:40 fms3.5
@@ -81,16 +81,16 @@ drwxrwxrwx  2 root root     4096 09-21 01:16 mysql
 drwxr-xr-x  3 root root     4096 09-21 18:40 setup_file
 drwxr-xr-x  9 root root     4096 09-17 19:23 tomcat6.0.32
 drwxr-xr-x  9 root root     4096 2012-08-14 tomcat_7.0
-[root@localhost soft]# 
+[root@localhost soft]# ```
 
 说明：
 从192.168.120.204机器上的/opt/soft/的目录中下载nginx-0.5.38.tar.gz 文件到本地/opt/soft/目录中
 实例2：从远处复制到本地
 命令：
-scp -r root@192.168.120.204:/opt/soft/mongodb /opt/soft/
+```scp -r root@192.168.120.204:/opt/soft/mongodb /opt/soft/```
 输出：
 
-[root@localhost soft]# ll
+```[root@localhost soft]# ll
 总计 80556
 drwxr-xr-x 12 root root     4096 09-21 18:40 fms3.5
 drwxr-xr-x  3 root root     4096 09-21 17:58 fms4.5
@@ -131,7 +131,7 @@ drwxrwxrwx  2 root root     4096 09-21 01:16 mysql
 drwxr-xr-x  3 root root     4096 09-21 18:40 setup_file
 drwxr-xr-x  9 root root     4096 09-17 19:23 tomcat6.0.32
 drwxr-xr-x  9 root root     4096 2012-08-14 tomcat_7.0
-[root@localhost soft]# 
+[root@localhost soft]# ```
 
 说明：
 从192.168.120.204机器上的/opt/soft/中下载mongodb 目录到本地的/opt/soft/目录来。
