@@ -1,6 +1,11 @@
 # Summary
 
 * [本书介绍](README.md)
+* [档案与权限](file/README.md)
+    * [Linux档案属性](file/prop.md)
+    * [umask(档案预设权限)](file/umask.md)
+    * [档案隐藏属性](file/hidden-prop.md)
+    * [档案隐藏权限](file/hidden-permission.md)
 * [基础知识](basic/README.md)
     * [I/O重定向](basic/io-redirect.md)
     * [I/0重定向原理](basic/io-redirect-tech.md)
