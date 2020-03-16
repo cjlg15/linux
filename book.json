@@ -1,0 +1,20 @@
+{
+	"title": "Linux学习笔记",
+	"author": "wangyuchuan",
+	"description":"",
+	"language": "zh-hans",
+	"plugins": [
+   		"tbfed-pagefooter", "-lunr", "-search", "search-plus", "splitter","-sharing","toggle-chapters","anchor-navigation-ex","simple-page-toc"
+	],
+	"pluginsConfig": {
+	    "tbfed-pagefooter": {
+	        "copyright":"Copyright &copy wychuan.com 2017",
+	        "modify_label": "该文件修订时间：",
+	        "modify_format": "YYYY-MM-DD HH:mm:ss"
+	    },
+	    "simple-page-toc":{
+	    	"maxDepth": 3,
+            "skipFirstH1": true
+	    }
+	}
+}
