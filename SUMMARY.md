@@ -5,6 +5,8 @@
     * [yum介绍](yum/what-why-how.md)
     * [yum cmd](yum/yum-cmd.md)
     * [yum国内镜像源](yum/yum-mirrors.md)
+* [常用工具](tools/README.md)
+    * [搬瓦工装Shadowsocks](tools/shadowsocks.md)
 * [用户管理](user/README.md)
     * [/etc/passwd](user/etc-passwd.md)
     * [/etc/shadow](user/etc-shadow.md)
