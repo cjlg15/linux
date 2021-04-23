@@ -56,6 +56,13 @@
     * 网络相关命令
         * [ss](network/ss.md)
         * [netstat](network/netstat.md)
+    * [CentOS 7 如何配置静态IP地址](network/centos7.md)
+    * [etc.hosts](network/etc-hosts.md)
+    * [etc.nsswitch.conf](network/etc-nsswitch-conf.md)
+    * [etc.resolv.conf](network/etc-resolv-conf.md)
+    * [etc.sysconfig.network](network/etc-sysconfig-network.md)
+    * [ifconfig](network/ifconfig.md)
+    * [ip命令](network/ip-cmd.md)
     * [网卡接口](network/interface.md)
     * [防火墙配置](network/iptables.md)
     * [TTL(Time-To-Live)](network/ttl.md)
